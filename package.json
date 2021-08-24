@@ -1,0 +1,37 @@
+{
+  "name": "api-petshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melissalopes/Alura-NodeJS-Avancado-Petshop.git"
+  },
+  "author": "Melissa Lopes Gouveia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/melissalopes/Alura-NodeJS-Avancado-Petshop/issues"
+  },
+  "homepage": "https://github.com/melissalopes/Alura-NodeJS-Avancado-Petshop#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "jsontoxml": "^1.0.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.24.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "jest": "^27.0.6"
+  }
+}
