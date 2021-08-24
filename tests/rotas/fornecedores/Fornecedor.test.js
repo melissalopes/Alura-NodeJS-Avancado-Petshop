@@ -31,3 +31,7 @@ describe('classe Fornecedor', () => {
     expect(fornecedor.versao).toBe(90)
   })
 })
+
+
+
+//COMMIT TESTE
